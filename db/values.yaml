@@ -1,4 +1,9 @@
 db:
+  secrets:
+    MYSQL_PASSWORD: wordpress
+    MYSQL_ROOT_PASSWORD: wordpress
+    MARIADB_ROOT_PASSWORD: wordpress
+
   name: wp-database
   labels:
     app: db
